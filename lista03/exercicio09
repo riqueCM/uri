@@ -1,0 +1,18 @@
+import java.util.Scanner;
+import java.io.IOException;
+public class Main {
+ 
+    public static void main(String[] args) throws IOException {
+ 
+        Scanner leitor = new Scanner(System.in);
+        int ds = leitor.nextInt();
+        int hs = ds / 3600;
+        ds -= hs * 3600;
+        int min = ds / 60;
+        ds -= min * 60;
+        int segundos = ds;
+        System.out.println(hs + ":" + min + ":" + segundos);
+ 
+    }
+ 
+}
