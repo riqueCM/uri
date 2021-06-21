@@ -1,0 +1,15 @@
+import java.util.Scanner;
+import java.io.IOException;
+public class Main {
+ 
+    public static void main(String[] args) throws IOException {
+ 
+        Scanner leitor = new Scanner(System.in);
+        double nA = leitor.nextDouble();
+        double nB = leitor.nextDouble();
+        double media = ((nA * 3.5) + (nB * 7.5))/11;
+        System.out.println(String.format("MEDIA = %.5f" , media));
+ 
+    }
+ 
+}
