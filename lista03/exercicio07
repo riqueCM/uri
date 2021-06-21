@@ -1,0 +1,16 @@
+import java.util.Scanner;
+import java.io.IOException;
+public class Main {
+ 
+    public static void main(String[] args) throws IOException {
+ 
+       Scanner leitor = new Scanner(System.in);
+        int t = leitor.nextInt();
+        int v = leitor.nextInt();
+        double km = t * v;
+        double media = km / 12;
+        System.out.println(String.format("%.3f", media)); 
+ 
+    }
+ 
+}
