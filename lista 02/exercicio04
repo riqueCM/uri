@@ -1,0 +1,13 @@
+import java.util.Scanner;
+import java.io.IOException;
+public class Main {
+public static void main(String[] args) throws IOException {
+ 
+        Scanner valor = new Scanner(System.in);
+        int v1 = valor.nextInt();
+        int v2 = valor.nextInt();
+        System.out.println("PROD = "+ (v1 * v2));
+ 
+    }
+ 
+}
