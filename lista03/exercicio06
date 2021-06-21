@@ -1,0 +1,14 @@
+import java.util.Scanner;
+import java.io.IOException;
+public class Main {
+ 
+    public static void main(String[] args) throws IOException {
+ 
+        Scanner leitor = new Scanner(System.in);
+        int km = leitor.nextInt();
+        int min = (km * 60) / 30;
+        System.out.println(min + " minutos");
+ 
+    }
+ 
+}
